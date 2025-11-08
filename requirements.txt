@@ -1,0 +1,3 @@
+apache-airflow-providers-microsoft-azure
+apache-airflow-providers-amazon
+pandas>=1.5.0

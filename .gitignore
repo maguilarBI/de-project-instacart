@@ -1,0 +1,42 @@
+# Entorno virtual
+airflow-env/
+
+# Logs de Airflow
+logs/
+
+# Base de datos SQLite
+*.db
+*.sqlite
+
+# Archivos temporales
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Configuración local
+airflow.cfg
+simple_auth_manager_passwords.json.generated
+
+# Archivos de IDE
+.vscode/
+.idea/
+.env
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+
+# Ignore logs
+logs/
+
+
+# Ignore all files inside data folder
+data/
+
+
+
+
+
+#ARCHIVOS SHELL (.sh)
+*.sh
